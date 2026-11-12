@@ -1,0 +1,10 @@
+node_modules/
+frontend/dist/
+backend/data/*.sqlite
+backend/.env
+*.log
+.DS_Store
+
+.claude/
+backend/data/
+__pycache__/

@@ -1,0 +1,85 @@
+/*
+ * Estilos globales mínimos. Todo lo visual vive en Fluent UI (tema en
+ * src/theme/fluentTheme.js, estilos con makeStyles). Ver design.md.
+ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  color-scheme: light;
+}
+
+:root.dark {
+  color-scheme: dark;
+}
+
+html,
+body {
+  overflow-x: clip;
+}
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl,
+dd,
+figure,
+fieldset {
+  margin: 0;
+}
+
+img,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+/* Ver ThemeContext: sin transiciones mientras se aplica el nuevo tema. */
+.theme-switching,
+.theme-switching * {
+  transition: none !important;
+}
+
+/* Barras de desplazamiento finas al estilo Windows 11. */
+* {
+  scrollbar-width: thin;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Texto solo para lectores de pantalla (encabezados de columnas de acciones). */
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

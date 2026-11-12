@@ -1,0 +1,29 @@
+{
+  "proyecto": "The Web Hosting",
+  "inicio": "2026-08-17",
+  "integrantes": ["Integrante 1", "Integrante 2", "Integrante 3", "Integrante 4"],
+  "nota": "Cambia los nombres de 'integrantes' y las fechas por los reales del equipo y vuelve a ejecutar: node herramientas/generar_gantt.mjs",
+  "tareas": [
+    { "fase": "1. Análisis de requerimientos", "tarea": "Lectura de la rúbrica y lista de requerimientos", "responsable": 0, "inicio": "2026-08-17", "dias": 4 },
+    { "fase": "1. Análisis de requerimientos", "tarea": "Casos de uso y requerimientos no funcionales", "responsable": 1, "inicio": "2026-08-19", "dias": 4 },
+    { "fase": "2. Diseño y arquitectura", "tarea": "Arquitectura en capas y API REST", "responsable": 0, "inicio": "2026-08-24", "dias": 5 },
+    { "fase": "2. Diseño y arquitectura", "tarea": "Diseño de interfaz con Fluent 2", "responsable": 2, "inicio": "2026-08-24", "dias": 7 },
+    { "fase": "3. Modelo físico de la BD", "tarea": "Diagrama entidad-relación y diccionario", "responsable": 1, "inicio": "2026-08-31", "dias": 4 },
+    { "fase": "3. Modelo físico de la BD", "tarea": "Modelos ORM, relaciones y datos semilla", "responsable": 1, "inicio": "2026-09-04", "dias": 5 },
+    { "fase": "4. Programación", "tarea": "Backend: Singleton, repositorios y servicios", "responsable": 0, "inicio": "2026-09-09", "dias": 10 },
+    { "fase": "4. Programación", "tarea": "Autenticación y mantenimiento (CRUD)", "responsable": 0, "inicio": "2026-09-21", "dias": 7 },
+    { "fase": "4. Programación", "tarea": "Frontend público: inicio, slideshow, planes, búsqueda", "responsable": 2, "inicio": "2026-09-09", "dias": 12 },
+    { "fase": "4. Programación", "tarea": "Fichas técnicas PDF, contacto por correo", "responsable": 3, "inicio": "2026-09-21", "dias": 7 },
+    { "fase": "4. Programación", "tarea": "Panel de administración y dashboards", "responsable": 2, "inicio": "2026-09-28", "dias": 9 },
+    { "fase": "4. Programación", "tarea": "Sugerencias paginadas y exportación Excel/PDF", "responsable": 3, "inicio": "2026-09-30", "dias": 6 },
+    { "fase": "4. Programación", "tarea": "Chatbot 24 h, contador de visitas y conectados", "responsable": 1, "inicio": "2026-10-05", "dias": 8 },
+    { "fase": "4. Programación", "tarea": "Video, audio e imágenes optimizadas", "responsable": 3, "inicio": "2026-10-08", "dias": 7 },
+    { "fase": "5. Pruebas", "tarea": "Pruebas automáticas de la API", "responsable": 0, "inicio": "2026-10-19", "dias": 5 },
+    { "fase": "5. Pruebas", "tarea": "Pruebas manuales y responsivas", "responsable": 2, "inicio": "2026-10-19", "dias": 6 },
+    { "fase": "5. Pruebas", "tarea": "Corrección de defectos", "responsable": 1, "inicio": "2026-10-26", "dias": 5 },
+    { "fase": "6. Implementación", "tarea": "Despliegue en servidor y base MySQL", "responsable": 0, "inicio": "2026-11-02", "dias": 4 },
+    { "fase": "6. Implementación", "tarea": "Verificación en producción", "responsable": 3, "inicio": "2026-11-05", "dias": 2 },
+    { "fase": "7. Documentación", "tarea": "Documentación técnica y diagrama de Gantt", "responsable": 1, "inicio": "2026-10-26", "dias": 12 },
+    { "fase": "7. Documentación", "tarea": "Exposición y entrega en Teams", "responsable": 2, "inicio": "2026-11-09", "dias": 3 }
+  ]
+}
